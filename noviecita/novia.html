@@ -1,0 +1,94 @@
+<html lang= "en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Te amo macarenita</title>
+    <link rel="stylesheet" href="novia.css">
+  </head>
+  <body>
+    <h1 id="title">Preguntas para amorcito</h1>
+    <p id="description">En este cuestionario podras responder preguntas random</p>
+    <form id="survey-form">
+
+      <div class="form-group">
+      <label id="name-label" "for="name">Tu nombre onegaishimas:</label>
+      <input placeholder="Ingresa tu nombre espocita" class="form-control" type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+      <label id="email-label" for="email">Tu correo</label>
+      <input class="form-control" placeholder="Ingresa tu correo amorcito" type="email" id="email" name="email" required>
+      </div>
+
+
+      <div class="form-group">
+      <label id="number-label" for="number">Edad:</label>
+      <input class="form-control" placeholder="Edad" type="number" id="number" name="number" min="18" max="20" required >
+      </div>
+
+
+      <div class="form-group">
+        <p>Cual las opciones te gusta mas?</p>
+       <select id="dropdown" name="role" class="form-control" required="">
+         <option disabled="" selected="" value=""> Selecciona una opction </option>
+         <option value="besito">Besito</option>
+         <option value="besote">Besote</option>
+         <option value="amamama">Amamama</option>
+         <option value="beso">beso</option>
+         <option value="todos los anteriores">Todos los anteriores</option>
+        </select>
+        </div>
+
+
+        <div class="form-group">
+          <p>Que marca te gusta mas? (En ropa)</p>
+          <label>
+            <input name="user-recommend" value="Chanel" type="radio" class="input-radio" checked="">Chanel</label>
+            <label>
+              <input name="user-recommend" value="Polo Ralph Lauren" type="radio" class="input-radio">Ralph Lauren</label>
+              <label>
+              <input name="user-recommend" value="Dior" type="radio" class="input-radio">Dior</label>
+          </div>
+
+           <div class="form-group">
+             <p>Que prefieres comer?</p>
+       <select id="most-like" name="most-like" class="form-control" required="">
+         <option disabled="" selected="" value=""> Selecciona una opction </option>
+         <option value="amorcito">Tu amorcito</option>
+         <option value="noviecito">Tu noviecito</option>
+         <option value="espocito">Tu espocito</option>
+         <option value="brandito">Tu brandito</option>
+         <option value="todos los anteriores">Todos los anteriores</option>
+        </select>
+             </div>
+
+         <div class="form-group">
+           <p>Cuales son tus peliculas favoritas de barbie?
+           <span class="clue">(Puedes seleccionar mas de una)</spam> </p>
+           <label><input name="prefer" value="barbie" type="checkbox" class="input-checkbox">Barbie</label>
+
+            <label><input name="prefer" value="barbie2" type="checkbox" class="input-checkbox">Barbie y las zapatillas mágicas</label>
+
+            <label><input name="prefer" value="barbie3" type="checkbox" class="input-checkbox">Barbie: La princesa de las perlas</label>
+
+            <label><input name="prefer" value="barbie4" type="checkbox" class="input-checkbox">Barbie: moda mágica en París</label>
+
+            <label><input name="prefer" value="barbie5" type="checkbox" class="input-checkbox">Barbie y las 12 princesas bailarinas</label>
+
+            <label><input name="prefer" value="barbie6" type="checkbox" class="input-checkbox">Barbie: La Princesa y la Estrella de Pop</label>
+
+            <label><input name="prefer" value="barbie7" type="checkbox" class="input-checkbox">Barbie of Swan Lake</label>
+
+            <label><input name="prefer" value="barbie8" type="checkbox" class="input-checkbox">Barbie: Princess Charm School</label>
+           </div>     
+
+    <div class="form-group">
+      <p>Que te parecio este form?</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Escribe tu comentario aqui"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Enviar</buttom>
+        </div>
+      </form>
+    </body>
+    </html>
